@@ -1,3 +1,3 @@
-module.exports = require('istanbul');
-exports.Instrumenter = require('./instrumenter');
-exports.VERSION = require('../package.json').version;
+export * from 'istanbul';
+export {Instrumenter} from './instrumenter';
+export {VERSION} from '../package.json';
